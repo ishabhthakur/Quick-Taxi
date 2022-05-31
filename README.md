@@ -14,7 +14,6 @@ Here i created a Taxi Booking web app named QuickTaxi that helps the customer to
 ## Home page
 ![01](https://user-images.githubusercontent.com/82073000/171235152-787f4543-0bfd-4bef-9d7d-827248390cca.png)
 
-(https://user-images.githubusercontent.com/94239926/161370151-7d7247b9-c3b5-41df-a4c1-7db0780a2dc0.png)
 
 ## About
 
