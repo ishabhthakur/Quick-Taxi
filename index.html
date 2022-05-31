@@ -1,0 +1,349 @@
+<!--
+author: ishabh thakur
+author URl: https://github.com/ishabhthakur
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quick Taxi</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Taxi Drive Responsive web template, Bootstrap Web Templates," />
+
+	<!-- Azure insights codes here-->
+		<!-- using Azure services to genrate insight from a website -->
+
+<!-- this is the snippet for the Azure insight -->
+	<script type="text/javascript">
+		!function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) && (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length && (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a < n.length; a++) { var i = n[a].split("="); 2 === i.length && (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n && !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t && m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e && "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, n }(); y.ld < 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] && !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u && u(e, t, n, a, i); return !0 !== r && m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit && y.onInit(n) } (T[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+			src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+			// name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+			// ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+			// useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+			crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+			// onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+			cfg: { // Application Insights Configuration
+				connectionString: "InstrumentationKey=61762477-067b-48fd-a79c-0a75143dd888;IngestionEndpoint=https://centralus-2.in.applicationinsights.azure.com/;LiveEndpoint=https://centralus.livediagnostics.monitor.azure.com/"
+				/* ...Other Configuration Options... */
+			}
+		});
+		
+	</script>
+	<!-- this is the snippet for the Azure insight -->
+	<!-- Ends here-->
+
+
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+	
+
+	<link rel='icon' href='images/taxi.jpg' />
+
+	<!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	<!-- //css files -->
+	
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Rosario:400,400i,700,700i" rel="stylesheet">
+	<!-- //google fonts -->
+	
+</head>
+<body>
+<!-- //header -->
+<header>
+	<div class="container">
+		<!-- nav -->
+		<nav class="py-sm-4 py-3 d-lg-flex">
+			<div id="logo">
+				<h1> <a href="index.html"><span class="fa fa-car"></span> Quick Taxi</a></h1>
+			</div>
+			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+			<input type="checkbox" id="drop" />
+			<ul class="menu mt-md-2 ml-auto">
+				<li class="mr-lg-4 mr-2 active"><a href="index.html">Home</a></li>
+				<li class="mr-lg-4 mr-2"><a href="#about">About Us</a></li>
+				<li class="mr-lg-4 mr-2"><a href="#services">Services</a></li>
+				<li class="mr-lg-4 mr-2"><a href="#tarrifs">Tariffs</a></li>
+				<li class="mr-lg-4 mr-2"><a href="#stats">Stats</a></li>
+				<li class="mr-lg-4 mr-2"><a href="#app">App Download</a></li>
+			</ul>
+		</nav>
+		<!-- //nav -->
+	</div>
+</header>
+<!-- //header -->
+		
+<!-- banner -->
+<section class="banner w3pvt-banner" id="home">
+	<div class="container">
+		<div class="banner-text">
+			<div class="slider-info">
+				<div class="w3pvt-logo">
+					<h2>Book Your Cab Now</h2>
+					<h3>+91 180 411 4999</h3>
+					<p class="mt-3"> Always Available, Best Cabs, Safe Journey.</p>
+					<img src="images/cab.png" alt="" class="img-fluid mt-md-5"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //banner -->
+
+<!-- about -->
+<section class="about py-sm-5 py-4" id="about">
+	<div class="container py-lg-5">
+		<div class="row about-grids">
+			<div class="col-lg-5">
+				<h6 class="mt-4">Best cabs available for you</h6>
+				<h4 class="mt-3">Trusted Cab Services In Your City</h4>
+				<p class="mt-sm-4 mt-3">Quick Taxi, a pioneering brand in the shared mobility space in India, Quick Taxi is a leading logistics and mobility solutions provider with over a decade
+				of experience in offering integrated, customized, scalable, innovative and technology-enabled solutions to its customers
+				across diverse industries. Leveraging on the strong foundation provided by Ashoka capabilities and resources, </p>
+				<p class="mt-sm-4 mt-3">Quick Taxi now
+				aims to take its service offerings to newer heights, delivering on its promise of customer excellence, safety and
+				sustainability. </p>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+				<div class="padding">
+					<form action="#" method="post">
+						<h5 class="mb-3">Book A Cab</h5>
+						<div class="form-style-agile">
+							<input placeholder="Name" name="name" type="text" required="">
+							<input placeholder="Phone Number" name="number" type="text" required="">
+							<input placeholder="Source(From)" type="text" required="">
+							<input placeholder="Destination(To)" type="text" required="">
+							<select>
+							  <option value="0">Choose Vehicle</option>
+							  <option value="1">Vehicle1</option>
+							  <option value="2">Vehicle2</option>
+							  <option value="3">Vehicle3</option>
+							  <option value="3">Vehicle4</option>
+							  <option value="3">Vehicle5</option>
+							</select>
+							<!--<input placeholder="Password" name="password" type="password" required=""> -->
+							<button class="book-btn btn">Book Now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mt-4">
+				<img src="images/about.jpg" alt="" class="img-fluid"/>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //about -->
+
+<!-- //what we do -->
+<section class="services py-5" id="services">
+	<div class="container py-lg-5 py-3">
+		<div class="row service-grid-grids text-center">
+				<div class="col-lg-4 col-md-6 service-grid service-grid1">
+					<div class="service-icon">
+						<span class="fa fa-car"></span>
+					</div>
+					<h4 class="mt-3">Fast and Safe</h4>
+					<p class="mt-3">Fast and Safe is our motive for customers to travel them within the spetitulated time. </p>
+				</div>
+				<div class="col-lg-4 col-md-6 service-grid service-grid2 mt-md-0 mt-5">
+					<div class="service-icon">
+						<span class="fa fa-user"></span>
+					</div>
+					<h4 class="mt-3">Experienced Drivers</h4>
+					<p class="mt-3">We have very  Experience Drivers in  our company with Good Customer Review.</p>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 service-grid service-grid3 mt-lg-0 mt-5">
+					<div class="service-icon">
+						<span class="fa fa-paper-plane"></span>
+					</div>
+					<h4 class="mt-3">Online Booking</h4>
+					<p class="mt-3">Easy Online Booking low cost fees on every booking have a special discount.</p>
+				</div>
+				<div class="col-lg-4 col-md-6 service-grid service-grid4 mt-5">
+					<div class="service-icon">
+						<span class="fa fa-search"></span>
+					</div>
+					<h4 class="mt-3">GPS Searching</h4>
+					<p class="mt-3">Realtime Location of the cabs available on the app for the most trusted experience have by the cab.</p>
+				</div>
+				<div class="col-lg-4 col-md-6 service-grid service-grid4 mt-5">
+					<div class="service-icon">
+						<span class="fa fa-car"></span>
+					</div>
+					<h4 class="mt-3">Safe Journey</h4>
+					<p class="mt-3">We  care about the safe journey we also provide some special medical gear in case of emergency </p>
+				</div>
+				<div class="col-lg-4 col-md-6 service-grid service-grid6 mt-5">
+					<div class="service-icon">
+						<span class="fa fa-cogs"></span>
+					</div>
+					<h4 class="mt-3">24/7 Cab Service</h4>
+					<p class="mt-3">We have a 24/7 cab service help line number for any complaints and for Booking purposes. </p>
+				</div>
+				
+		</div>
+	</div>		
+</section>
+<!-- what we do -->
+
+<!-- tarrifs -->
+<section class="tarrifs py-5" id="tarrifs">
+	<div class="container py-md-5">
+		<div class="row tarrifs-grid">
+			<div class="col-lg-4 col-md-6 text-center">
+				<img src="images/taxi1.jpg" alt="" class="img-fluid"/>
+				<div class="tarrif-info">
+					<h4 class="my-3">Economy Class</h4>
+					<p class="para_vl">Economy class, also called third class, coach class, steerage, or to distinguish it from the slightly more expensive
+					premium economy class, standard economy class or budget economy class, is the lowest travel class of seating in 
+					travel,</p>
+					<h5 class="mt-sm-3 mt-2">₹15/Km</h5>
+				</div>		
+			</div>		
+			<div class="col-lg-4 col-md-6 text-center">
+				<img src="images/taxi2.jpg" alt="" class="img-fluid"/>
+				<div class="tarrif-info">
+					<h4 class="my-3">Standard Class</h4>
+					<p class="para_vl">Standard class are less expensive class of business class with some beverages from Economy class.</p>
+					<h5 class="mt-sm-3 mt-2">₹20/Km</h5>
+				</div>		
+			</div>		
+			<div class="col-lg-4 col-md-6 text-center mt-lg-0 mt-5">
+				<img src="images/taxi1.jpg" alt="" class="img-fluid"/>
+				<div class="tarrif-info">
+					<h4 class="my-3">Business Class</h4>
+					<p class="para_vl">Busines class  also premium class of cab service in the list it have maximum beverages.</p>
+					<h5 class="mt-sm-3 mt-2">₹25/Km</h5>
+				</div>		
+			</div>		
+		</div>		
+	</div>		
+</section>
+<!-- //tarrifs -->
+
+<!-- stats -->
+<section class="stats py-5" id="stats">
+	<div class="container py-sm-3">	
+		<div class="row">
+			<div class="col-sm-4 col-6 text-center">
+				<span class="fa mr-1 fa-users"></span>
+				<h4>10,000+</h4>
+				<p>Passengers</p>
+			</div>	
+			<div class="col-sm-4 col-6 text-center">
+				<span class="fa mr-1 fa-car"></span>
+				<h4>1200</h4>
+				<p>Cab Drivers</p>
+			</div>	
+			<div class="col-sm-4 col-6 mt-sm-0 mt-4 text-center">
+				<span class="fa mr-1 fa-map"></span>
+				<h4>500</h4>
+				<p>Cab Routes</p>
+			</div>		
+		</div>		
+	</div>		
+</section>
+<!-- //stats -->
+
+<!-- call us -->
+<section class="customer-call">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 py-sm-5 py-4 mt-3">
+				<h4 class="mt-2">24 Hours 7 Days a Week</h4>
+				<p>Call Us Now</p>
+				<h2><span class="fa mr-1 fa-phone"></span> +91 180 411 4999</h2>
+				<p class="mt-4">he direct one-on-one interaction between a consumer making a purchase and a representative of the company that is
+				selling it. Most retailers see this direct interaction as a critical factor in ensuring buyer satisfaction and
+				encouraging repeat business.</p>
+			</div>		
+			<div class="col-lg-3 offset-lg-1 col-md-4 col-sm-6 col-8 pt-md-5 mt-lg-3">
+				<img src="images/agent-18762.png" alt="">
+			</div>		
+		</div>		
+	</div>		
+</section>
+<!-- //call us -->
+
+<!--/app-->
+<section class="mobile-app-sec py-5" id="app">
+	<div class="container py-sm-3">
+		<!--/mobile-app -->
+		<div class="row inner-sec-wthree-agileits">
+			<div class="col-lg-7 pt-lg-5 app-info text-left">
+				<h3 class="tittle mob pb-sm-4">Download the Mobile App for free <br>Get More Exciting Offers</h3>
+				<p class="para_vl">Any person or entity operating one or more vehicles for hire, other than as a driver, regardless of the legal form of the
+				entity and regardless of whether the taxis so operated are owned by the company, or leased, or owned by individual
+				members of an entity. Taxi Companies do not include TNCs.</p>
+				<div class="app-devices">
+					<a href="#" class="mr-3">
+						<img src="images/app.png" alt="">
+					</a>
+					<a href="#">
+						<img src="images/app1.png" alt="">
+					</a>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-lg-3 offset-lg-2 col-md-4 col-sm-6 col-8 app-img text-right">
+				<img src="images/mobile.png" alt=" " class="img-fluid">
+			</div>
+			<!--//mobile-app -->
+		</div>
+	</div>
+</section>
+<!--//app-->
+
+<!-- footer -->
+<footer class="py-5">
+	<div class="container">
+		<div class="row footer_grids pt-lg-3">
+			<div class="col-lg-5 footer_left">
+				<h3 class="mb-sm-4 mb-3">About Our Taxi Company</h3>
+				<p>Nulla felis tortor, rutrum eget feugiat enon, blandit tellus. Nam pharetra ipsum ligula volutpat, a finibus.
+				Fuscet sed malesuada sollicitudin venenatis. Aenean aculis faucibus iaculis. Donec finibus est sit amet mi ultrices,
+				id fringilla mauris efficitur. In eu enim quis nulla iaculis tempus.</p>
+			</div>
+			<div class="col-lg-3 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_right">
+				<h3 class="mb-sm-4 mb-3">Contact Us</h3>
+				<p> <span class="fa mr-1 fa-map-marker"></span> No.27 - 490006 Street Floor, Delhi city, INDIA </p>
+				<p> <span class="fa mr-1 fa-envelope"></span> <a href="mailto:info@example.com">info@example.com</a> </p>
+				<p> <span class="fa mr-1 fa-phone"></span> +91 180 411 8900 </p>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_middle">
+				<h3 class="mb-sm-4 mb-3">Download Apps</h3>
+				<p>Nulla felis tortor, rutrum eget feugiat enon, blandit tellus. Nam pharetra ipsum ligula volutpat, a finibus sit amet mi ultrices.</p>
+				<ul class="mt-3">
+					<li class="mr-3"><a href="#">Android Users <span class="fa ml-1 fa-android"></span></a></li>
+					<li><a href="#">IOS Users <span class="fa ml-1 fa-apple"></span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- move top -->
+		<div class="move-to-top text-center mt-3">
+			<a href="#home" class="move-top"><span class="fa fa-angle-double-up" aria-hidden="true"></span></a>
+		</div>
+		<!-- //move top -->
+		<div class="copyright text-center mt-3">
+			<p>© 2022 Quick Taxi. All Rights Reserved | Design by <a href="https://github.com/ishabhthakur"> ishabh thakur</a> </p>
+		</div>
+	</div>
+</footer>
+<!-- //footer -->
+
+</body>
+</html>
+
