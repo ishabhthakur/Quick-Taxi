@@ -60,12 +60,12 @@ Here,I can Monitor the number of devices in which user are using the Website I c
 ![06](https://user-images.githubusercontent.com/82073000/171235825-9ad97daa-842d-4ed5-ad46-e94667d79f91.png)
 
 
-## Azure portal screen shot
-# 01 - Static Web App With Website Hit metrics Graph
+# Azure portal screen-shots
+## 01 - Static Web App With Website Hit metrics Graph
 ![Screenshot 2022-06-01 234106](https://user-images.githubusercontent.com/82073000/171473832-4b429d1b-9649-4806-b29c-5e0042414480.png)
 ![image](https://user-images.githubusercontent.com/82073000/171474206-973f93b6-3c8b-4304-b599-3f90d8806c2e.png)
 
-# 02 - Application Insights with user logs, Monitoring Number of users, Performance and Events session
+## 02 - Application Insights with user logs, Monitoring Number of users, Performance and Events session
 ![Screenshot 2022-06-02 001413](https://user-images.githubusercontent.com/82073000/171479635-d1f3aaad-3a8f-49ad-b47f-0c09c4e03040.png)
 ![Screenshot 2022-06-02 001820](https://user-images.githubusercontent.com/82073000/171479919-f3693361-3700-40ba-9e67-89
 ![Screenshot 2022-06-02 002224](https://user-images.githubusercontent.com/82073000/171481704-75ba807c-c2c2-40c8-99a2-be418294472f.png)
