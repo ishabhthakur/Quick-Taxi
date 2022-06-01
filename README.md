@@ -56,3 +56,5 @@ In a nutshell our Taxi Booking Software should be able to:
 
 
 ## azure portal screen shot
+## Azure Code snippet for using Azure Application insights
+![1](https://user-images.githubusercontent.com/82073000/171470382-1b43b51f-cf4b-471f-ab9a-4edb0fb5e8cc.png)
