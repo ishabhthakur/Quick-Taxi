@@ -28,7 +28,7 @@ In a nutshell our Taxi Booking Software should be able to:
 - Track your customers.
 - Engage your customers through interaction such as feedback forms
 - 
-Azure services,
+## Azure services,
 I basically uses two Azure cloud computing Services.
 
 First,Static web app Service to host the website in Azure. It is a serverless hosting.So, in Azure I can see the metrics(graphs) of Hit ratio of a website with respect to time in an Azure interface. 
