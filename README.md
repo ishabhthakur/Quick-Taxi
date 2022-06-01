@@ -4,12 +4,9 @@ This is my Taxi Booking Website!!
 - https://nice-island-06be25510.1.azurestaticapps.net/
 
 ## Future Ready Talent (FRT)-2022
-## Project published by Ishabh Thakur under FRT-Program'2022.
+## Project published by Ishabh Thakur under FRT-Virtual Internship Program'2022.
 
-Here i created a Taxi Booking web app named QuickTaxi that helps the customer to find Nearby transport Service at low cost with best offers!
-
-## Here is Website link Hosted By Azure Cloud Computing Services:
-https://nice-island-06be25510.1.azurestaticapps.net/
+Here i created a Taxi Booking web app named QuickTaxi that helps the customer to find Nearby transport Service at low cost  to book a car online with  best offers!
 
 ## Youtube video For my project Demonstration.
 
