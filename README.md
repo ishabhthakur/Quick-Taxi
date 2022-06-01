@@ -11,6 +11,8 @@ Here i created a Taxi Booking web app named QuickTaxi that helps the customer to
 ## Here is Website link Hosted By Azure Cloud Computing Services:
 https://nice-island-06be25510.1.azurestaticapps.net/
 
+## Youtube video For my project Demonstration.
+
 ## Project Discription
 
 Using this Website Application, it is very easy for customer to book a car online and cab-booking agency can also track their booking online. 
@@ -25,6 +27,15 @@ In a nutshell our Taxi Booking Software should be able to:
 - Provide the customer with taxi availability
 - Track your customers.
 - Engage your customers through interaction such as feedback forms
+- 
+Azure services,
+I basically uses two Azure cloud computing Services.
+
+First,Static web app Service to host the website in Azure. It is a serverless hosting.So, in Azure I can see the metrics(graphs) of Hit ratio of a website with respect to time in an Azure interface. 
+
+Second, i used Application  Insight service to generate insight from the website.
+I used INSTRUMENTATION STRING in my script page.For connecting the Azure Application insight service to my website.
+Here,I can Monitor the number of devices in which user are using the Website I can see this data in metric form whom i can change it different Chart type like;- Line Chart, Bar chart, Area Chart. Also, the number of events performed by the user in the website, Here By Going to logs Running the Query i can See the results of User activity in the website. i can view the website performance Health in the current and past history.
 
 
 ## Home page
@@ -52,9 +63,18 @@ In a nutshell our Taxi Booking Software should be able to:
 ![06](https://user-images.githubusercontent.com/82073000/171235825-9ad97daa-842d-4ed5-ad46-e94667d79f91.png)
 
 
-## Youtube video For my project Demonstration.
+## Azure portal screen shot
+# 01 - Static Web App With Website Hit metrics Graph
+![Screenshot 2022-06-01 234106](https://user-images.githubusercontent.com/82073000/171473832-4b429d1b-9649-4806-b29c-5e0042414480.png)
+![image](https://user-images.githubusercontent.com/82073000/171474206-973f93b6-3c8b-4304-b599-3f90d8806c2e.png)
+
+# 02 - Application Insights with user logs, Monitoring Number of users, Performance and Events session
+![Screenshot 2022-06-02 001413](https://user-images.githubusercontent.com/82073000/171479635-d1f3aaad-3a8f-49ad-b47f-0c09c4e03040.png)
+![Screenshot 2022-06-02 001820](https://user-images.githubusercontent.com/82073000/171479919-f3693361-3700-40ba-9e67-89
+![Screenshot 2022-06-02 002224](https://user-images.githubusercontent.com/82073000/171481704-75ba807c-c2c2-40c8-99a2-be418294472f.png)
+226ce9197e.png)
+![Screenshot 2022-06-02 002402](https://user-images.githubusercontent.com/82073000/171481732-b767bbbf-2c84-4874-accb-13d6af1c7ca8.png)
 
 
-## azure portal screen shot
 ## Azure Code snippet for using Azure Application insights
 ![1](https://user-images.githubusercontent.com/82073000/171470382-1b43b51f-cf4b-471f-ab9a-4edb0fb5e8cc.png)
