@@ -8,7 +8,23 @@ This is my Taxi Booking Website!!
 
 Here i created a Taxi Booking web app named QuickTaxi that helps the customer to find Nearby transport Service at low cost with best offers!
 
-## Here is Website link:https://nice-island-06be25510.1.azurestaticapps.net/
+## Here is Website link Hosted By Azure Cloud Computing Services:
+https://nice-island-06be25510.1.azurestaticapps.net/
+
+## Project Discription
+
+Using this Website Application, it is very easy for customer to book a car online and cab-booking agency can also track their booking online. 
+So, it is also very useful for car booking agency.
+ Taxi Booking Software is a webbased platform that allows your customers to book their taxi's and 
+executive taxi's (such asLimousines) all online from the comfort of their own home or office.
+
+In a nutshell our Taxi Booking Software should be able to:
+- Provide the functionality to make your own bookings
+- Give your customers the facility to make payments and deposits online with their credit / debit card.
+- Generate Invoices
+- Provide the customer with taxi availability
+- Track your customers.
+- Engage your customers through interaction such as feedback forms
 
 
 ## Home page
