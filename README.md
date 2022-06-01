@@ -10,7 +10,7 @@ Here i created a Taxi Booking web app named QuickTaxi that helps the customer to
 
 ## Youtube video For my project Demonstration.
 
-## Project Discription
+## Project Description
 
 Using this Website Application, it is very easy for customer to book a car online and cab-booking agency can also track their booking online. 
 So, it is also very useful for car booking agency.
