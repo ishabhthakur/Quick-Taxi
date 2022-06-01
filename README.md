@@ -31,7 +31,7 @@ I basically uses two Azure cloud computing Services.
 First,Static web app Service to host the website in Azure. It is a serverless hosting.So, in Azure I can see the metrics(graphs) of Hit ratio of a website with respect to time in an Azure interface. 
 
 Second, i used Application  Insight service to generate insight from the website.
-I used INSTRUMENTATION STRING in my script page.For connecting the Azure Application insight service to my website.
+I used INSTRUMENTATION STRING in my script page.For connecting the Azure Application insight service to my website. I also run Dummy Query to generate the data metric.
 Here,I can Monitor the number of devices in which user are using the Website I can see this data in metric form whom i can change it different Chart type like;- Line Chart, Bar chart, Area Chart. Also, the number of events performed by the user in the website, Here By Going to logs Running the Query i can See the results of User activity in the website. i can view the website performance Health in the current and past history.
 
 
