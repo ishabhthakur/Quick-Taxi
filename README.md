@@ -74,4 +74,5 @@ Here,I can Monitor the number of devices in which user are using the Website I c
 
 
 ## Azure Code snippet for using Azure Application insights
-![1](https://user-images.githubusercontent.com/82073000/171470382-1b43b51f-cf4b-471f-ab9a-4edb0fb5e8cc.png)
+![Screenshot 2022-06-02 004230](https://user-images.githubusercontent.com/82073000/171484204-e85fab8e-f3e1-484b-9672-faf3b4fb5152.png)
+
